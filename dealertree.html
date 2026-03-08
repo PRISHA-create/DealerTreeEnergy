@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DealerTreeEnergy</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: Arial, sans-serif;
+}
+
+body{
+line-height:1.6;
+background:#f4f6f8;
+}
+
+header{
+background:#0a2540;
+color:white;
+padding:20px 0;
+}
+
+.container{
+width:90%;
+margin:auto;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav h1{
+color:#2ecc71;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:20px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+url("https://images.unsplash.com/photo-1509395176047-4a66953fd231");
+background-size:cover;
+background-position:center;
+height:80vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+}
+
+.hero h2{
+font-size:48px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:20px;
+}
+
+section{
+padding:60px 0;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:8px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.card h3{
+margin-bottom:10px;
+color:#0a2540;
+}
+
+.about{
+background:white;
+}
+
+.contact form{
+display:flex;
+flex-direction:column;
+max-width:500px;
+}
+
+.contact input,
+.contact textarea{
+margin-bottom:10px;
+padding:10px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+.contact button{
+background:#2ecc71;
+color:white;
+border:none;
+padding:12px;
+cursor:pointer;
+border-radius:5px;
+}
+
+footer{
+background:#0a2540;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="container">
+<nav>
+<h1>DealerTreeEnergy</h1>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+<section class="hero" id="home">
+<div>
+<h2>Powering the Future</h2>
+<p>Innovative Energy Solutions for a Sustainable World</p>
+</div>
+</section>
+
+<section class="about container" id="about">
+<h2>About Us</h2>
+<p>
+DealerTreeEnergy is focused on delivering innovative and sustainable
+energy solutions. Our mission is to accelerate the transition to clean
+and efficient energy through modern technology, smart infrastructure,
+and reliable partnerships.
+</p>
+</section>
+
+<section class="container" id="services">
+<h2>Our Services</h2>
+<div class="services">
+
+<div class="card">
+<h3>Solar Energy</h3>
+<p>Design and installation of efficient solar power systems for homes and industries.</p>
+</div>
+
+<div class="card">
+<h3>Energy Consulting</h3>
+<p>Professional consulting to optimize energy usage and reduce operational costs.</p>
+</div>
+
+<div class="card">
+<h3>Energy Trading</h3>
+<p>Helping businesses manage and trade energy resources effectively.</p>
+</div>
+
+<div class="card">
+<h3>Green Technology</h3>
+<p>Implementation of sustainable technologies to reduce carbon footprint.</p>
+</div>
+
+</div>
+</section>
+
+<section class="contact container" id="contact">
+<h2>Contact Us</h2>
+
+<form>
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Your Email" required>
+<textarea rows="5" placeholder="Your Message"></textarea>
+<button type="submit">Send Message</button>
+</form>
+
+</section>
+
+<footer>
+<p>© 2026 DealerTreeEnergy | Energy for Tomorrow</p>
+</footer>
+
+</body>
+</html>
